@@ -1,101 +1,73 @@
-# Workflow Automation System
+# Welcome to your Lovable project
 
-Build an enterprise-grade Workflow Automation System for internal company operations.
+## Project info
 
-**Live Demo**: [https://workflow-flame-six.vercel.app/auth](https://workflow-flame-six.vercel.app/auth)
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## 🎯 Product Goal
+## How can I edit this code?
 
-Create a secure internal web application that digitizes and automates approval-based workflows (e.g., Purchase Requests, Leave Requests, IT Support Tickets) to reduce manual processes, improve accountability, and provide real-time visibility across departments.
+There are several ways of editing your application.
 
-## 👥 User Roles
+**Use Lovable**
 
-- **Employee**: Submit requests (purchase, leave, IT support), view request status and history, add comments or attachments.
-- **Manager**: Review and approve/reject employee requests, add approval notes, view team-level requests.
-- **Finance / IT / HR**: Handle requests after manager approval, update fulfillment status, upload documents or resolution notes.
-- **Admin**: Manage users and roles, configure workflow steps per request type, view system-wide analytics and audit logs.
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-## 🔄 Core Features
+Changes made via Lovable will be committed automatically to this repo.
 
-### Workflow Engine
+**Use your preferred IDE**
 
-- Status-based request flow (Submitted → Approved → In Progress → Completed / Rejected)
-- Configurable steps depending on request type
-- Role-Based Access Control (RBAC): Actions and visibility depend on user role
-- Secure data isolation between departments
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Request Management
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- Create, edit, and track requests
-- Attach files and comments
-- Automatic status transitions
-
-### Timeline & Audit History
-
-- Full activity log per request
-- Shows who acted, what changed, and when
-
-### Notifications
-
-- In-app notifications on status changes
-- Optional email notifications
-
-## 📊 Dashboard & Analytics
-
-- Role-specific dashboards
-- Pending approvals count
-- Requests by status and type
-- Average approval time
-- Filters by date, department, and requester
-
-## 🎨 UI / UX
-
-- **Clean, modern enterprise UI**
-- Responsive layout (desktop-first)
-- Table views with filters and bulk actions
-- Timeline view for request history
-- Clear visual status indicators
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React + TypeScript
-- **Styling**: Tailwind CSS, shadcn-ui
-- **State/Data**: React Query
-- **Backend**: Supabase (Database, Auth, Edge Functions)
-- **Routing**: React Router
-- **Icons**: Lucide React
-
-## 📦 Getting Started
-
-### Prerequisites
-
-- Node.js & npm installed
-
-### Installation
+Follow these steps:
 
 ```sh
-# Clone the repository
+# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
-# Navigate to the project directory
-cd WorkFlow
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-# Install dependencies
-npm install
+# Step 3: Install the necessary dependencies.
+npm i
 
-# Start the development server
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-### Environment Variables
+**Edit a file directly in GitHub**
 
-This project uses Supabase for the backend. You need to set up the following environment variables in a `.env` file (copied from `.env.example` if available, or ask the team for keys):
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
+**Use GitHub Codespaces**
 
-## 🧪 Deployment
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Automated deployments are set up via Vercel.
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
